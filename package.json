@@ -1,0 +1,22 @@
+{
+  "name": "myvue",
+  "version": "1.0.0",
+  "description": "a new Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hzjhzj123456/myVue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hzjhzj123456/myVue/issues"
+  },
+  "homepage": "https://github.com/hzjhzj123456/myVue#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0"
+  }
+}
