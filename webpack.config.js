@@ -32,7 +32,7 @@ module.exports = {
       }, {
         test: /\.css$/,
         use: ExtractRootCss.extract({
-          fallback:'style-loadder',
+          fallback:'style-loader',
           use:'css-loader',
         })
       }, {
@@ -90,9 +90,9 @@ module.exports = {
         template:'./index.html'
       }
     ),
+    new webpack.HotModuleReplacementPlugin(),//热更新 webpack自带 无需再另行下载
     ExtractRootCss,
     ExtracVueCss,
-    new webpack.HotModuleReplacementPlugin() //热更新 webpack自带 无需再另行下载
   ],
   externals:{
     'jquery':'window.jQuery'

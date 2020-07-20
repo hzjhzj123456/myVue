@@ -37,6 +37,8 @@
   },
   "dependencies": {
     "cross-env": "^7.0.2",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4",
+    "vuex": "^3.5.1"
   }
 }

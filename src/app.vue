@@ -1,21 +1,17 @@
 <template>
   <div id="app">
-    <div>{{message}}</div>
-    <div class="imgbox">
-      <img src="../assets/img/sign.png" alt="" />
-    </div>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 // import Vue from 'vue';
-import $ from 'jquery'
 export default {
      name:'App',
      data(){
-       return {
-         message:"欢迎来到vue112233"
-       }
+      return{
+
+      }
      }
   
 }
